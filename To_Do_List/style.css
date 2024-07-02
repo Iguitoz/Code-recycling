@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    padding: 25px;
+    user-select: none; 
+    background-image: url(Decoration/641988.jpg);
+    height: 850px;
+    
+    
+    
+}
+
+header > span {
+    font-size: 0.05rem;
+    font-weight: 700;
+    /* color: */
+    letter-spacing: 0.02rem;
+}
+
+header > h1 {
+    /* color: */
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 5px;
+    color: white;
+}
+
+header > h3 {
+    margin-top: 3px;
+    margin-left: 2px;
+    color: white;
+}
+
+.columns{
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.column{
+    width: 100%;
+    background-color: rgb(192, 192, 221);
+    height: 100dvh;
+    border-radius: 10px;
+}
+
+.column_title{
+    color: rgb(129, 16, 95);
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.column_cards{
+    padding: 4px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card{
+    width: 100%;
+    min-height: 70px;
+    background-color: rgb(129, 16, 95);
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 2px 2px gray;
+    padding: 12px 14px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(192, 192, 221);
+    margin-bottom: 5px;
+}
+
+.column--highlight{ 
+    background-color: rgb(129, 16, 95);
+    border: 2px solid rgb(8, 90, 138);
+}
+
