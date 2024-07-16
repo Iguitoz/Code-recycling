@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*configuração do banner site com a logo do league */
+
+.logo-banner{
+    background-image: url(/image/kisspng-league-of-legends-logo-tournament.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(9, 8, 73);
+    height: 320px;
+    border: 3px rgb(73, 77, 22) solid;
+}
+
+/* configuração da div que contém os botões */
+
+.lanes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(99, 97, 8, 0.993);
+    border: 2px black solid;
+}
+
+/* configuração dos botões */
+
+.btn_lanes{
+    height: 35px;
+    text-align: center;
+    width: 14.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    margin: 5px;
+    border-radius:8px;
+    border: 2px solid black;
+}
+
+.info-content{
+    display: flex;
+   background-image: url(/image/banner-top.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    max-height: 410px;
+    max-width: 100%px;
+}
+.info-content2{
+    display: flex;
+   background-image: url(/image/banner-jungle.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    max-height: 366px;
+    max-width: 100%px;
+}
+.info-content3{
+    display: flex;
+    background-image: url(/image/banner-mid.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid black;
+    height: 382px;
+    max-width: 100%px;
+}
+.info-content4{
+    display: flex;
+    background-image: url(/image/banner-carry.jpg); 
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid black;
+    height: 354px;
+    max-width: 100%px;
+}
+.info-content5{
+    display: flex;
+   background-image: url(/image/banner-support.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid black;
+    height: 408px;
+    max-width: 100%px;
+}
+
+/* configuração do texto de rota e da imagem do campeão */
+
+
+/*tamanho das imagens*/
+.png{
+    width: 630px;
+    height: 410px;
+}
+.png2{
+    width: 630px;
+    height: 366px;
+}
+.png3{
+    width: 630px;
+}
+.png4{
+    width: 630px;
+    height: 355px;
+
+}
+.png5{
+    width: 630px;
+    height: 408px;
+}
+
+/* comportamento do texto*/
+
+.txt{
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 5px;
+    color: whitesmoke;  
+}
+
+.txt> h2 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.textbox{
+    font-family: fantasy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
