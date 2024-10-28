@@ -1,51 +1,47 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/*configuração do banner site com a logo do league */
+/*configuração do banner do site com a logo do league  e um titulo principal*/
 
 .logo-banner{
-    background-image: url(/image/kisspng-league-of-legends-logo-tournament.png);
+    background-image: url(/image/league-heroes.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgb(9, 8, 73);
-    height: 320px;
-    border: 3px rgb(73, 77, 22) solid;
+    height: 370px;
+    width: 100vw;
+    border: 3px black solid;
+    opacity: 90%;
 }
 
-/* configuração da div que contém os botões */
-
-.lanes{
+.banner-image{ 
+    margin: auto;
     display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: rgba(99, 97, 8, 0.993);
+    
+}
+
+.titulo-banner{
+    padding: 10px;
     border: 2px black solid;
+    color: rgb(12, 12, 11);
+    background-color: rgb(193, 191, 228);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
-/* configuração dos botões */
-
-.btn_lanes{
-    height: 35px;
-    text-align: center;
-    width: 14.5em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    margin: 5px;
-    border-radius:8px;
-    border: 2px solid black;
-}
-
+/* Configuração do conteúdo de texto e das imagens */
 .info-content{
     display: flex;
-   background-image: url(/image/banner-top.jpg);
+    background-image: url(/image/banner-top.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     border: 2px solid black;
-    max-height: 410px;
-    max-width: 100%px;
+    max-height: 380px;
+    max-width: 100vw;
+   /* opacity: 90%; */
 }
 .info-content2{
     display: flex;
@@ -55,7 +51,8 @@
     background-repeat: no-repeat;
     border: 2px solid black;
     max-height: 366px;
-    max-width: 100%px;
+    max-width: 100vw;
+   /* opacity: 90%; */
 }
 .info-content3{
     display: flex;
@@ -64,7 +61,8 @@
     background-attachment: fixed;
     border: 2px solid black;
     height: 382px;
-    max-width: 100%px;
+    max-width: 100vw;
+   /* opacity: 90%; */
 }
 .info-content4{
     display: flex;
@@ -73,7 +71,8 @@
     background-attachment: fixed;
     border: 2px solid black;
     height: 354px;
-    max-width: 100%px;
+    max-width: 100vw;
+   /* opacity: 90%; */
 }
 .info-content5{
     display: flex;
@@ -81,47 +80,46 @@
     background-position: center;
     background-attachment: fixed;
     border: 2px solid black;
-    height: 408px;
-    max-width: 100%px;
+    height: 382px;
+    max-width: 100vw;
+   /* opacity: 90%; */
 }
-
-/* configuração do texto de rota e da imagem do campeão */
-
 
 /*tamanho das imagens*/
 .png{
     width: 630px;
-    height: 410px;
+    height: 377px;
 }
 .png2{
     width: 630px;
-    height: 366px;
+    height: 362px;
 }
 .png3{
     width: 630px;
 }
 .png4{
     width: 630px;
-    height: 355px;
+    height: 350px;
 
 }
 .png5{
     width: 630px;
-    height: 408px;
+    height: 377px;
 }
 
 /* comportamento do texto*/
 
 .txt{
-    margin-left: 10px;
+    padding-left: 10px;
     text-align: center;
     margin-top: 5px;
-    color: whitesmoke;  
+    color: whitesmoke;
+    text-shadow: 2px 2px #000000;  
 }
 
 .txt> h2 {
     text-align: center;
-    padding-bottom: 5px;
+    
 }
 
 h1{
@@ -132,5 +130,77 @@ h1{
 .textbox{
     font-family: fantasy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    padding-top: 15px;
 }
 
+
+/*alteração das cores de texto*/
+
+#top-txt{
+    color: antiquewhite;
+    text-shadow: 2px 2px #000000;
+}
+#jg-txt{
+    color: rgb(197, 242, 197);
+    text-shadow: 2px 2px #000000;
+    
+}
+#mid-txt{
+    color:rgb(216, 166, 230);
+    text-shadow: 2px 2px #000000;
+}
+#carry-txt{
+    color: rgb(234, 234, 164);
+    text-shadow: 2px 2px #000000;
+}
+#sup-txt{
+    color: rgb(243, 174, 237);
+    text-shadow: 2px 2px #000000;
+}
+
+/* Texto de rodapé */
+.rodape{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(193, 191, 228);
+    border: #000000 3px solid;
+}
+.texto-rodape{
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.titulo3-rodape{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px
+}
+
+.lista-social{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif ; 
+    text-align: center;
+    margin-left: 40%;
+   
+}
+
+li{
+    margin: 12px;
+}
+
+a:hover{
+    color: crimson;
+}
+
+.lista-link{ 
+    text-decoration: none;
+    color: rgb(8, 8, 77);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
